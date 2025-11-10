@@ -1,0 +1,55 @@
+html {
+    font-family: sans-serif;
+}
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link {
+    margin: 0 8px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.cta-link {
+    background-color: #df91f6;
+    border-radius: 14px;
+}
+
+.tab-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.tab-link {
+    background-color: #555;
+    color: #eee;
+    display: block;
+    text-align: center;
+    margin: 0 4px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.tab-item {
+    flex-grow: 1;
+}
+
+.tab-link:hover {
+    text-decoration: underline;
+}
